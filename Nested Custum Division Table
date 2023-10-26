@@ -1,0 +1,32 @@
+
+
+//nested loops - one inside another 
+for (var i = 100; i > 10; i = i - 10) {
+    for (var j = 10; j > 4; j = j - 5) {
+        console.log(i + " divided by " + j + " equals " + i / j);
+    }
+}
+
+
+Result:-
+
+Here's the output of the above nested loop:
+
+100 divided by 10 equals 10
+100 divided by 5 equals 20
+90 divided by 10 equals 9
+90 divided by 5 equals 18
+80 divided by 10 equals 8
+80 divided by 5 equals 16
+70 divided by 10 equals 7
+70 divided by 5 equals 14
+60 divided by 10 equals 6
+60 divided by 5 equals 12
+50 divided by 10 equals 5
+50 divided by 5 equals 10
+40 divided by 10 equals 4
+40 divided by 5 equals 8
+30 divided by 10 equals 3
+30 divided by 5 equals 6
+20 divided by 10 equals 2
+20 divided by 5 equals 4
