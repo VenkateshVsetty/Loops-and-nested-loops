@@ -1,0 +1,35 @@
+THe loops ==> FisrtNum =0 (intilization)...and forward ==>FirstNum <2 (Condition)...And firstNum++ (updation)
+
+Nested loop ==> secondNum = 0 (intilization)
+
+
+//nested loops - one inside another
+for (var firstNum = 0; firstNum < 2; firstNum++) {
+    for (var secondNum = 0; secondNum < 10; secondNum++) {
+        console.log(firstNum + ", " + secondNum);
+    }
+}
+
+Result :- Now that I'm nesting the second for loop inside the first one, and that I'm console logging 
+the values of both counter variables as the loops are progressing, the output looks like this:
+
+0, 0
+0, 1
+0, 2
+0, 3
+0, 4
+0, 5
+0, 6
+0, 7
+0, 8
+0, 9
+1, 0
+1, 1
+1, 2
+1, 3
+1, 4
+1, 5
+1, 6
+1, 7
+1, 8
+1, 9
